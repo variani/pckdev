@@ -8,12 +8,12 @@ Maintainer: Joe Black <joe@black.com>
 Description: See Title.
 License: GPL (>= 3)
 Depends:
-  methods
+    methods
 Collate:
     'package.R'
     'datasets.R'
     'support.lib.R'
     'PckdevClass.R'
-    'PckdevClassmethods.R'
+    'PckdevClassMethods.R'
     'SensorClass.R'
     'SensorClassMethods.R'

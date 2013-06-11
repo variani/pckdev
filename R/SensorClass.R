@@ -11,7 +11,8 @@ validSensor <- function(object)
 #'
 #' Class \code{Sensor} defines a gas sensor device.
 #'
-#' @name Sensor
+#' @name Sensor-class
+#' @rdname Sensor-class
 #' @exportClass Sensor
 setClass(Class = "Sensor", 
   representation = representation(
@@ -23,13 +24,11 @@ setClass(Class = "Sensor",
 # Print/Show Methods
 #----------------------------
 
-#' @exportMethod print
 setMethod ("print","Sensor", function(x, ...)
 {
   show(x)
 })
 
-#' @exportMethod show
 setMethod ("show", "Sensor", function(object)
 {
   cat(" Sensor\n")

@@ -5,6 +5,10 @@ NULL
 # Class constructor
 #----------------------------
 
+#' Constructor method of Sensor Class
+#'
+#' @name Sensor
+#' @rdname Sensor-class
 setMethod("initialize", "Sensor", function(.Object,
   type = "character", num = "numeric", ...)  
 { 
@@ -15,6 +19,10 @@ setMethod("initialize", "Sensor", function(.Object,
   return(.Object)
 })
 
+#' Wrapper function Sensor
+#' @name Sensor
+#' @rdname Sensor-class
+#' @aliases Sensor
 #' @export
 Sensor <- function(...) new("Sensor", ...) 
 
@@ -22,4 +30,14 @@ Sensor <- function(...) new("Sensor", ...)
 # Get/Set Methods
 #----------------------------
 
-setMethod("type", "ANY", function(x) x@type)
+#' Method type
+#' @name type
+#' @rdname type-methods
+#' @aliases type,Sensor,ANY-method
+setMethod("type", "Sensor", function(x) x@type)
+
+
+
+
+
+
