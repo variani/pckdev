@@ -1,0 +1,8 @@
+Package: pckdev
+Type: Package
+Title: Skeleton of R package
+Version: 0.1
+Date: 2013-06-11
+Author: Joe Black
+Maintainer: Joe Black <joe@black.com>
+License: GPL (>= 3)
