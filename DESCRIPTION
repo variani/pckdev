@@ -5,4 +5,9 @@ Version: 0.1
 Date: 2013-06-11
 Author: Joe Black
 Maintainer: Joe Black <joe@black.com>
+Description: See Title.
 License: GPL (>= 3)
+Collate:
+    'package.R'
+    'datasets.R'
+    'support.lib.R'

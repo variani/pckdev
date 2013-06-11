@@ -31,7 +31,10 @@ References
 
 Configuration
 
-    git remote add origin https://github.com/username/Hello-World.git
+    git clone https://github.com/username/Hello-World.git # local repository will be named *origin*.
+
+> In clone's default setup, the default local branch tracks the origin remote, 
+> which represents the default branch in the remote repository.
 
 update via [stackoveflow.com](http://stackoverflow.com/questions/1309878/a-git-pull-command-works-like-svn-update#comment1145653_1309878)
 
