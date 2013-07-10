@@ -5,7 +5,7 @@ NULL
 # Class constructor
 #----------------------------
 
-#' Constructor method of Sensor Class
+#' Constructor method of Sensor Class.
 #'
 #' @name Sensor
 #' @rdname Sensor-class
@@ -19,10 +19,10 @@ setMethod("initialize", "Sensor", function(.Object,
   return(.Object)
 })
 
-#' Wrapper function Sensor
+#' Wrapper function Sensor.
+#'
 #' @name Sensor
 #' @rdname Sensor-class
-#' @aliases Sensor
 #' @export
 Sensor <- function(...) new("Sensor", ...) 
 
