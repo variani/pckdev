@@ -4,6 +4,7 @@
 
 * http://stackoverflow.com/questions/4396768/how-to-properly-document-s4-and-methods-using-roxygen
 * http://stackoverflow.com/questions/7356120/how-to-properly-document-s4-methods-using-roxygen2?lq=1
+* http://stackoverflow.com/questions/7368262/how-to-properly-document-s4-class-slots-using-roxygen2
 * https://github.com/hadley/devtools/wiki/Documenting-functions
 * https://github.com/joey711/testpkg
 * http://stackoverflow.com/questions/12476291/documenting-s4-methods-with-roxygen2-clearly-distinguishing-methods-in-help-fil?lq=1
