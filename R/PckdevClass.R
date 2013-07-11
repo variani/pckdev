@@ -2,13 +2,13 @@
 # Get/Set Methods
 #----------------------------
 
-#' Method num
+#' Method num.
 #' @name num
 #' @rdname num-methods
 #' @exportMethod num
 setGeneric("num", function(x) standardGeneric("num"))
 
-#' Method type
+#' Method type.
 #' @name type
 #' @rdname type-methods
 #' @exportMethod type

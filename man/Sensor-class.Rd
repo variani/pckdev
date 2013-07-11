@@ -5,6 +5,9 @@
 \usage{
   Sensor(...)
 }
+\arguments{
+  \item{...}{constructor parameters.}
+}
 \description{
   Class \code{Sensor} defines a gas sensor device.
 

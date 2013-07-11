@@ -23,6 +23,7 @@ setMethod("initialize", "Sensor", function(.Object,
 #'
 #' @name Sensor
 #' @rdname Sensor-class
+#' @param ... constructor parameters.
 #' @export
 Sensor <- function(...) new("Sensor", ...) 
 
@@ -30,13 +31,9 @@ Sensor <- function(...) new("Sensor", ...)
 # Get/Set Methods
 #----------------------------
 
-#' Method type
-#' @name type
 #' @rdname type-methods
-#' @aliases type,Sensor,ANY-method
+#' @aliases type,Sensor-method
 setMethod("type", "Sensor", function(x) x@type)
-
-
 
 
 

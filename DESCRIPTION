@@ -14,6 +14,6 @@ Collate:
     'datasets.R'
     'support.lib.R'
     'PckdevClass.R'
-    'PckdevClassMethods.R'
     'SensorClass.R'
     'SensorClassMethods.R'
+    'PckdevClassMethods.R'
