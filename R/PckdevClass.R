@@ -13,3 +13,9 @@ setGeneric("num", function(x) standardGeneric("num"))
 #' @rdname type-methods
 #' @exportMethod type
 setGeneric("type", function(x) standardGeneric("type"))
+
+#' Method csd.
+#' @name csd
+#' @rdname Sensor-class
+#' @exportMethod csd
+setGeneric("csd", function(x) standardGeneric("csd"))

@@ -1,7 +1,8 @@
-\name{Sensor-class}
+\name{csd}
 \alias{Sensor}
 \alias{Sensor-class}
-\title{Class Sensor.}
+\alias{csd}
+\title{Method csd.}
 \usage{
   Sensor(...)
 }
@@ -9,6 +10,8 @@
   \item{...}{constructor parameters.}
 }
 \description{
+  Method csd.
+
   Class \code{Sensor} defines a gas sensor device.
 
   Constructor method of Sensor Class.

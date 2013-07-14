@@ -1,6 +1,7 @@
 export(Sensor)
 export(availableMethods)
 exportClasses(Sensor)
+exportMethods(csd)
 exportMethods(num)
 exportMethods(type)
 import(graphics)

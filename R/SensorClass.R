@@ -16,7 +16,8 @@ validSensor <- function(object)
 #' @exportClass Sensor
 setClass(Class = "Sensor", 
   representation = representation(
-    type = "character", num = "numeric"),  
+    type = "character", num = "numeric",
+    csd = "numeric"),  
   validity = validSensor
 )
 

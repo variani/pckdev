@@ -35,6 +35,10 @@ Sensor <- function(...) new("Sensor", ...)
 #' @aliases type,Sensor-method
 setMethod("type", "Sensor", function(x) x@type)
 
+#' @rdname Sensor-class
+#' @aliases csd,Sensor-method
+setMethod("csd", "Sensor", function(x) x@csd)
+
 
 
 
