@@ -39,6 +39,13 @@ setMethod("type", "Sensor", function(x) x@type)
 #' @aliases csd,Sensor-method
 setMethod("csd", "Sensor", function(x) x@csd)
 
+#' @rdname Sensor-class
+#' @aliases ssd,Sensor-method
+setMethod("ssd", "Sensor", function(x) x@ssd)
+
+#' @rdname Sensor-class
+#' @aliases dsd,Sensor-method
+setMethod("dsd", "Sensor", function(x) x@dsd)
 
 
 

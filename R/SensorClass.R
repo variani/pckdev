@@ -17,7 +17,7 @@ validSensor <- function(object)
 setClass(Class = "Sensor", 
   representation = representation(
     type = "character", num = "numeric",
-    csd = "numeric"),  
+    csd = "numeric", ssd = "numeric", dsd = "numeric"),  
   validity = validSensor
 )
 
