@@ -13,8 +13,8 @@ Development
 * https://github.com/hadley/roxygen3
 
 Namespaces
-* [http://stackoverflow.com/questions/8637993/better-explanation-of-when-to-use-imports-depends]
-* [http://adv-r.had.co.nz/Namespaces.html]
+* http://stackoverflow.com/questions/8637993/better-explanation-of-when-to-use-imports-depends
+* http://adv-r.had.co.nz/Namespaces.html
 
 Submission
 * http://cran.r-project.org/web/packages/policies.html
