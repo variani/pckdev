@@ -12,6 +12,10 @@ Development
 * http://stackoverflow.com/questions/12476291/documenting-s4-methods-with-roxygen2-clearly-distinguishing-methods-in-help-fil?lq=1
 * https://github.com/hadley/roxygen3
 
+Namespaces
+* [http://stackoverflow.com/questions/8637993/better-explanation-of-when-to-use-imports-depends]
+* [http://adv-r.had.co.nz/Namespaces.html]
+
 Submission
 * http://cran.r-project.org/web/packages/policies.html
 
