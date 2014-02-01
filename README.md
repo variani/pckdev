@@ -67,3 +67,35 @@ commit
     git commit -m 'first commit'
     git push origin master    
     
+# Clone a github repo
+
+```
+# fork the repo on github.com
+
+# clone
+git clone https://github.com/variani/lme4.git
+
+# configure the local repo to keep track on the original repo
+git remote add upstream https://github.com/lme4/lme4.git
+git fetch upstream
+git branch -a
+
+# change code to `upstream/flexLambda`
+git checkout upstream/flexLambda
+
+# create a local branch with the same name `origin/flexLambda`
+# - this new branch will be syncronized with `upstream/flexLambda`
+git checkout -b flexLambda upstream/flexLambda
+
+# create another local branch `origin/flexLambda-dev` with a starting point `origin/flexLambda`
+git checkout -b flexLambda-dev flexLambda
+
+# add and push changes
+touch R/flexLambda.R
+git add R/flexLambda.R
+git commit -m 'first change'
+git push origin flexLambda-dev
+
+# pull 
+git pull origin flexLambda-dev
+```
