@@ -6,6 +6,9 @@ Some of [Wiki Pages](https://github.com/variani/pckdev/wiki/_pages):
 * [Documenting with roxygen2](https://github.com/variani/pckdev/wiki/Documenting-with-roxygen2)
 * [Version control with git (github)](https://github.com/variani/pckdev/wiki/Version-control-with-git-(github))
 
+# References
+
+* The main reference http://r-pkgs.had.co.nz/
 
 # Commands (Linux)
 
