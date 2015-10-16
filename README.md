@@ -49,4 +49,8 @@ Namespaces
 
 Submission
 * http://cran.r-project.org/web/packages/policies.html
+ 
+Documentation
+
+* [S3 methods](http://stackoverflow.com/a/17026386/551589)
 
