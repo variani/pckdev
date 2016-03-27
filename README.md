@@ -47,8 +47,9 @@ Namespaces
 * http://stackoverflow.com/questions/8637993/better-explanation-of-when-to-use-imports-depends
 * http://adv-r.had.co.nz/Namespaces.html
 
-Submission
+Submission to CRAN
 * http://cran.r-project.org/web/packages/policies.html
+* http://f.briatte.org/r/submitting-packages-to-cran
  
 Documentation
 
